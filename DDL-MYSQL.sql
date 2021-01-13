@@ -1,9 +1,7 @@
-
 ----------------------------
 -- COMANDO PARA ABRIR MYSQL EN LINUX
 ----------------------------
 -- sudo mysql -u root -p
-
 
 ----------------------------
 -- COMANDO PARA CREAR USUARIO MYSQL QUE PERMITA CONEXIONES AL SERVIDOR DE BASE DE DATOS DESDE OTROS EQUIPOS
@@ -21,6 +19,7 @@ CREATE DATABASE UNIGRASAS;
 USE UNIGRASAS;
 
 SHOW TABLES;
+
 
 -- -----------------------------------------------------
 -- TABLE `UNIGRASAS`.`TIPO_PERSONA`
