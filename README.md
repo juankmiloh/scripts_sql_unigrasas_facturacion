@@ -11,5 +11,9 @@ mysqldump -u root -p unigrasas > /home/azureuser/unigrasas.sql
 > Primero crear la base de datos en MySQL y luego si se carga...
 ```
 create database UNIGRASAS;
-mysql -u root -p proyecto < mysql -u root -p UNIGRASAS < /home/azureuser/db_unigrasas/unigrasas.sql
+mysql -u root -p UNIGRASAS < /home/azureuser/scripts_sql_unigrasas_facturacion/DDL.sql
+```
+> Comando para insertar datos
+```
+mysql -u root -p UNIGRASAS < /home/azureuser/scripts_sql_unigrasas_facturacion/DML.sql
 ```
