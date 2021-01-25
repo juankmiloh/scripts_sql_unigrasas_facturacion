@@ -1,8 +1,6 @@
 ----------------------------
 -- CONFIGURAR BASE DE DATOS
 ----------------------------
-CREATE DATABASE UNIGRASAS;
-
 USE UNIGRASAS;
 
 -- -----------------------------------------------------
