@@ -1,26 +1,23 @@
-USE UNIGRASAS;
-
-
 ----------------------------
 -- DML TABLA ROL
 ----------------------------
-INSERT INTO ROL (NOMBRE) VALUES ('administrador');
-INSERT INTO ROL (NOMBRE) VALUES ('vendedor');
-INSERT INTO ROL (NOMBRE) VALUES ('consulta');
+INSERT INTO `UNIGRASAS`.`ROL` (NOMBRE) VALUES ('administrador');
+INSERT INTO `UNIGRASAS`.`ROL` (NOMBRE) VALUES ('vendedor');
+INSERT INTO `UNIGRASAS`.`ROL` (NOMBRE) VALUES ('consulta');
 
 
 ----------------------------
 -- DML TABLA GENERO
 ----------------------------
-INSERT INTO GENERO (NOMBRE) VALUES ('Hombre');
-INSERT INTO GENERO (NOMBRE) VALUES ('Mujer');
+INSERT INTO `UNIGRASAS`.`GENERO` (NOMBRE) VALUES ('Hombre');
+INSERT INTO `UNIGRASAS`.`GENERO` (NOMBRE) VALUES ('Mujer');
 
 
 ----------------------------
 -- DML TABLA TIPOPERSONA
 ----------------------------
-INSERT INTO TIPO_PERSONA(NOMBRE) VALUES ('Persona natural');
-INSERT INTO TIPO_PERSONA(NOMBRE) VALUES ('Persona jurídica');
+INSERT INTO `UNIGRASAS`.`TIPO_PERSONA`(NOMBRE) VALUES ('Persona natural');
+INSERT INTO `UNIGRASAS`.`TIPO_PERSONA`(NOMBRE) VALUES ('Persona jurídica');
 
 
 ----------------------------
