@@ -3,7 +3,7 @@
 ## COMANDO PARA CREAR BACKUP DE BASE DE DATOS MYSQL
 ------------------------------------------------
 ```
-mysqldump -u root -p UNIGRASAS > /home/azureuser/scripts_sql_unigrasas_facturacion/backups/2unigrasas13052021.sql
+mysqldump -u root -p UNIGRASAS > /home/azureuser/scripts_sql_unigrasas_facturacion/backups/2_unigrasas13052021.sql
 ```
 
 ## COMANDO PARA RESTAURAR BACKUP BASE DE DATOS MYSQL
