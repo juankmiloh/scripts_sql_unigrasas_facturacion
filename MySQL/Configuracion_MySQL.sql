@@ -37,6 +37,11 @@
 -- sudo mysql -u root -p
 
 ----------------------------
+-- CONEXIONES ACTIVAS A LA BASE DE DATOS
+----------------------------
+-- show status like 'Threads%';
+
+----------------------------
 -- COMANDO PARA ABRIR MYSQL EN windows
 ----------------------------
 -- C:\Program Files\MySQL\MySQL Server 8.0\bin>mysql -u root -p
